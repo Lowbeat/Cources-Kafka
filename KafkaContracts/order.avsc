@@ -1,0 +1,11 @@
+﻿{
+  "namespace" : "avro",
+  "type": "record",
+  "name": "Order",
+  "fields": [
+    {"name": "orderId", "type": "int"},
+    {"name": "strings", "type": { "type": "array", "items": "string" }},
+    {"name": "date_", "type": "long"},
+    {"name": "total_cost", "type": "int"}
+  ]
+}
