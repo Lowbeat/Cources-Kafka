@@ -1,1 +1,2 @@
-# Cources-Kafka
+docker-compose up -d
+docker-compose down
